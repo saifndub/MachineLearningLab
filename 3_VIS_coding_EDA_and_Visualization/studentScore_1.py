@@ -6,13 +6,11 @@ df = pd.read_csv("studentScore.csv")
 data = df[['gender','race/ethnicity']]
 #print(data)
 data1 = data.groupby(['race/ethnicity','gender']).size().reset_index(name='counts') #.count()
-length = len(data1)
-start = 0
 listGroup = []
 listMale = []
 listFemale = []
-for var in range(start, length):
-    a = data1['race/ethnicity'][var]
+for i,row in data1.iterrows():
+    a = row['race/ethnicity']
     if a not in listGroup:
         listGroup.append(a)
 
