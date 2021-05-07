@@ -13,14 +13,15 @@ for i,row in data1.iterrows():
     a = row['race/ethnicity']
     if a not in listGroup:
         listGroup.append(a)
+print("Group :", listGroup)
 
 male = data1.loc[data1['gender'] == 'male']
 listMale = male['counts'].tolist()
-print(listMale)
+print("Male :",listMale)
 
 female = data1.loc[data1['gender'] == 'female']
 listFemale = female['counts'].tolist()
-print(listFemale)
+print("Female :",listFemale)
 
 x_indexes = np.arange(len(listGroup))
 width = 0.40
