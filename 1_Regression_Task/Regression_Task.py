@@ -35,4 +35,3 @@ print("The value of w0 =",w0,"and w1 =",w1)
 print("Equation is : y = w0 + w1*x")
 print("Last 2 digit of Id :", x_id)
 print("predicted value of y :", y)
- 
