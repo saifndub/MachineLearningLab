@@ -31,9 +31,9 @@ plt.bar(x_indexes + width/2, listFemale, width=width, label="Female")
 
 plt.legend()
 plt.xticks(ticks=x_indexes, labels=listGroup)
-plt.xlabel('Group')
-plt.ylabel('Gender')
-plt.title('Gender by Group')
+plt.xlabel('Group Name')
+plt.ylabel('Number of Students')
+plt.title('Number of Students according to Gender of Each Group')
 plt.tight_layout()
 
 plt.show()
