@@ -8,9 +8,9 @@ data = df[['parental level of education']]
 data1 = data.groupby(['parental level of education']).size().reset_index(name='counts') #.count()
 #print(data1)
 parental_level = data1['parental level of education'].tolist()
-print(parental_level)
+print("Parental Level :",parental_level)
 count_level = data1['counts'].tolist()
-print(count_level)
+print("Number of person :",count_level)
 
 fig1, ax1 = plt.subplots()
 ax1.pie(count_level, labels=parental_level, autopct='%1.1f%%', shadow=True, startangle=90)

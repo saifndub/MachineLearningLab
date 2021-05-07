@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv("test.csv")
+df = pd.read_csv("studentScore.csv")
 data = df[['writing score']]
 #print(data)
 mean = data.mean()
@@ -13,13 +13,12 @@ mode = data.mode()
 mode = mode['writing score']
 varience = data.var()
 varience = varience['writing score']    #Save result from varience dataframe to varience variable
-size = data['writing score'].count()
+#size = data['writing score'].count()
 
-print("Mean of ", mean)
-print("Median of", median)
-print("Mode of", mode)
-print(size)
-print("Varience of", varience)
+print("Mean of :", mean)
+print("Median of :", median)
+print("Mode of index", mode)
+print("Varience of :", varience)
 
 
 
