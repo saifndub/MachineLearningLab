@@ -25,10 +25,14 @@ Any programming language is ok including  xls chart.
 - Start early
 
 # Solution Screenshots :
-#### For Task 1 :
-[<img src="../0_Images/3_VIS_coding/studentScore_1MF.png" align="left"
-width="200"
-    hspace="10" vspace="10">](/readme/1_Basic.png)
+#### Solve Task 1 :
+[<img src="../0_Images/3_VIS_coding/studentScore_1MF.png" width="450">](../0_Images/3_VIS_coding/studentScore_1MF.png)
+[<img src="../0_Images/3_VIS_coding/studentScore_1OnlyStud.png" width="450">](../0_Images/3_VIS_coding/studentScore_1OnlyStud.png)
+#### Solve Task 3 :
+[<img src="../0_Images/3_VIS_coding/studentScore_3.png" width="450">](../0_Images/3_VIS_coding/studentScore_3.png)
+#### Solve Task 4 :
+[<img src="../0_Images/3_VIS_coding/studentScore_4.png" width="450">](../0_Images/3_VIS_coding/studentScore_4.png)
+<br>
 
 # Reference :
 #### Pandas Tutorial : 
