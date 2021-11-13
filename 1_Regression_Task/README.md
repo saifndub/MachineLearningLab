@@ -11,4 +11,4 @@ NB : I have also downloaded the data in this directory named  `data-linear-reg.c
 - upload pdf to submit
 
 # Solution Screenshots :
-[<img src="../0_Images/1_Regression_Task/ScatterPlot.png" width="450">](../0_Images/3_VIS_coding/studentScore_1MF.png)
+[<img src="../0_Images/1_Regression_Task/ScatterPlot.png" width="600">](../0_Images/3_VIS_coding/studentScore_1MF.png)
