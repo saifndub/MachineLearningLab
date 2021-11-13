@@ -9,3 +9,6 @@ NB : I have also downloaded the data in this directory named  `data-linear-reg.c
 - write code to find w0 and w1. print them in the screen.
 - predict value of y when x is the last 2 digits of your roll number. Print predicted y in the screen.
 - upload pdf to submit
+
+# Solution Screenshots :
+[<img src="../0_Images/1_Regression_Task/ScatterPlot.png" width="450">](../0_Images/3_VIS_coding/studentScore_1MF.png)
